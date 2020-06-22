@@ -43,7 +43,7 @@ ec2-52-202-146-43.compute-1.amazonaws.com
 
         // return the number of row affected
         //return $stmt->rowCount();
-$sql = "UPDATE product SET productname = 'sieunhan' WHERE productid = '01'";
+$sql = "UPDATE product SET productname = 'toy001' WHERE productid = '001'";
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record updated successfully.";

@@ -59,11 +59,11 @@ echo '<p>productinformation:</p>';
       ?>
    
       <tr>
-        <td scope="row"><?php echo $row['ProductID'] ?></td>
-        <td><?php echo $row['ProductName'] ?></td>
-        <td><?php echo $row['Size'] ?></td>
-        <td><?php echo $row['BasicPrice'] ?></td>
-        <td><?php echo $row['Residual'] ?></td>
+        <td scope="row"><?php echo $row['productid'] ?></td>
+        <td><?php echo $row['productname'] ?></td>
+        <td><?php echo $row['size'] ?></td>
+        <td><?php echo $row['basicprice'] ?></td>
+        <td><?php echo $row['residual'] ?></td>
         
       </tr>
      
