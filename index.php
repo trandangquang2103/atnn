@@ -107,8 +107,11 @@
           <li><a href="login.html" title="">Login</a></li>
           <input type="text" placeholder="Search..." name="Search">
           <li><button type="submit"><i class="fa fa-search"></i></button></li>
-		  <li><a href="javascript:void(0)" title="">Check The Cart</a></li>
-		  <a class="btn btn-info btn-add-to-cart"><i class="fa fa-shopping-cart"></i></a>
+          <li><a href="ConnectToDB.php" title="">View</a></li>
+          <li><a href="InsertData.php" title="">Insert</a></li>
+          <li><a href="UpdateData.php" title="">Update</a></li>
+          <li><a href="DeleteData.php" title="">Delete</a></li>
+		 
         </ul>
       </div>
     </div>
