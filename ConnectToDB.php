@@ -6,7 +6,7 @@
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0705!";
+echo "Hello Cloud Computing class 0705!";
 ?>
 
 <?php
@@ -57,8 +57,7 @@ echo '<p>product information:</p>';
       ?>
    
       <tr>
-        <td scope="row"><?php echo $row['product'] ?></td>
-        <td><?php echo $row['id'] ?></td>
+        <td scope="row"><?php echo $row['id'] ?></td>
         <td><?php echo $row['name'] ?></td>
         <td><?php echo $row['price'] ?></td>
         
