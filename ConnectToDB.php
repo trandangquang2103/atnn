@@ -37,17 +37,17 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>productinformation:</p>';
+echo '<p>product information:</p>';
 
 ?>
 <div id="container">
 <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>product ID</th>
+        <th>product id</th>
         <th>product name</th>
         <th>size</th>
-        <th>basicprice</th>
+        <th>basic price</th>
           <th>residual</th>
       </tr>
     </thead>

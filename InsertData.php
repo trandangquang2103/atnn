@@ -17,7 +17,7 @@ list-style: none;
 <li>Customer ID:</li><li><input type="text" name="CustomerID" /></li>
 <li>Customer Name:</li><li><input type="text" name="Customername" /></li>
 <li>Email:</li><li><input type="text" name="email" /></li>
-<li>Class:</li><li><input type="text" name="classname" /></li>
+<li>Customer Phone:</li><li><input type="text" name="classname" /></li>
 <li><input type="submit" /></li>
 </form>
 </ul>
