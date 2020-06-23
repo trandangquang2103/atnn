@@ -55,12 +55,12 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO product(productid, productname,size, basicprice,residual)"
-        . " VALUES('$_POST[productid]','$_POST[productname]','$_POST[size]','$_POST[basicprice]','$_POST[residual]'";
+$sql = "INSERT INTO product(id, name, price)"
+        . " VALUES('$_POST[id]','$_POST[name]','$_POST[price]'";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
- if (is_null($_POST[ProductID])) {
-   echo "ProductID must be not null";
+ if (is_null($_POST[id])) {
+   echo "ID must be not null";
  }
  else
  {
