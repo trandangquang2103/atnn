@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head style="background-color: black;">
+    <title>ANTStore</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+        li {
+            list-style: none;
+        }
+    </style>
+    <link rel="stylesheet" href="css/insert.css">
+</head>
+
+<body>
+    <div class="Deletebase">
+        <img src="image/ATN STORE.png" style="width: 100%; height: 300px;">
+        <h1 style="color:black;">ATN Store</h1>
+        <h2 style="color:black;">DELETE DATA TO DATABASE</h2>
+        <h2 style="color:black;">Enter data into table</h2>
+
+        <ul>
+            <form name="DeleteData" action="Delete.php" method="POST">
+                <li style="color:black;">ID:</li>
+                <li><input type="text" name="customerid" /></li>
+                <li style="color:black;">Name:</li>
+                <li><input type="text" name="customername" /></li>
+                <li style="color:black;">Price:</li>
+                <li><input type="text" name="address" /></li>
+                <li><input type="submit" value="Submit" /></li> 
+            </form>
+        </ul>
+    </div>
+</body>
+
+</html>
